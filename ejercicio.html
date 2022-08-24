@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mini_ejercicio</title>
+    <style>
+        .container {
+            width: auto;
+            height: auto;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+
+        }
+
+
+
+        div {
+            background-color: rgb(222, 101, 76);
+            padding: 20px;
+            margin: 5px;
+        }
+
+
+        @media(min-width:20px) {
+            main {
+                display: flex;
+                flex-wrap: wrap;
+
+            }
+
+
+            .box,
+            .container {
+                width: 100%;
+            }
+
+            .box {
+                display: flex;
+                width: 50px;
+                height: 50px;
+                background-color: rgb(67, 105, 187);
+
+            }
+
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>1</h1>
+        </div>
+        <div class="box">
+            <h1>2</h1>
+        </div>
+        <div class="box">
+            <h1>3</h1>
+        </div>
+        <div class="box">
+            <h1>4</h1>
+        </div>
+        <div class="box">
+            <h1>5</h1>
+        </div>
+        <div class="box">
+            <h1>6</h1>
+        </div>
+        <div class="box">
+            <h1>7</h1>
+        </div>
+    </div>
+
+</body>
+
+</html>
